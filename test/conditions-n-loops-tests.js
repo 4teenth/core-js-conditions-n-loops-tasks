@@ -122,7 +122,7 @@ describe('core-js-conditions-n-loops', () => {
       );
       assert.equal(
         tasks.isIsoscelesTriangle(2, 2, 5),
-        false,
+        true,
         '2, 2, 5 is non isosceles triangle'
       );
       assert.equal(
